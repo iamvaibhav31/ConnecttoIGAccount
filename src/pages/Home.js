@@ -10,7 +10,7 @@ const Home = () => {
           const code = searchParams.get("code")
 
           const handlegotoprofileviews = () => {
-                    dispatch(postsvideorequests())
+                    dispatch(postsvideorequests(code))
                     navigation("/IGProfile")
           }
 
