@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import AccesTokenSlice from "./Slice/AccesTokenSlice";
+import ProfileDataSlice from "./Slice/ProfileDataSlice";
 
 
 export const store = configureStore({
      reducer: {
-          AccessToken: AccesTokenSlice
+          ProfileData: ProfileDataSlice
 
      }
 });
